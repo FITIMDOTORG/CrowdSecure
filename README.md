@@ -21,3 +21,27 @@
 1. Clone the repository:  
    ```bash
    git clone https://github.com/FITIMDOTORG/crowdsecure.git
+
+## Navigate to the project directory:
+-cd crowdsecure
+
+## Install backend dependencies:
+-cd backend
+- pip install -r requirements.txt
+
+## Install frontend dependencies:
+- cd frontend
+- npm install
+  
+## Start MongoDB:
+- mongod --dbpath ./data
+  
+## Start the backend server:
+- cd backend
+- python app.py
+- 
+## Start the frontend server:
+cd frontend
+npm start
+## Open the app in your browser 
+- at http://localhost:3000.
